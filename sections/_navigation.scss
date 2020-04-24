@@ -1,0 +1,20 @@
+.nav_bar{
+    font-size: 1.9rem;
+    font-weight: 300;
+    display: flex;
+    margin-left: 110rem;
+    cursor: pointer;
+    list-style: none;
+    margin-top: 8rem;
+
+    &-items{
+        font-family: 'poppins';
+        margin-right: 4rem;
+        display: inline-block;
+        color: #eeeeeef1;
+        &:hover{
+            border-bottom: 1px solid #eeeeeed2;
+            color: $color-white;
+        }
+    }
+}

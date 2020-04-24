@@ -1,0 +1,102 @@
+.header-text{
+    font-family: "poppins";
+    font-size: 5.5rem;
+    font-weight: lighter;
+    margin-top: 4rem;
+    word-spacing: 2rem;
+    color: #3A3321;
+}
+.explain-text{
+    font-family: "poppins";
+    font-size: 2.3rem;
+    font-weight: 200;
+    line-height: 3.5rem;
+    color: rgba(58, 51, 33, 0.842);
+}
+.feature-head-text{
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #3A3321;
+}
+.feature-head-text-explain{
+    font-family: "poppins";
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    color: rgba(58, 51, 33, 0.76);
+    margin-top: 2rem;
+}
+.section-about-header-text{
+    font-family: "poppins";
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(26, 25, 22);
+    margin-top: 8rem;
+}
+.section-profile-heading-text{
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: #3A3321;
+    text-align: center;
+    margin-top: 3rem;
+}
+.section-profile-p{
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: rgba(58, 51, 33, 0.664);
+    text-align: center;
+
+}
+.profile-name{
+    font-size: 4rem;
+    text-align: center;
+    color: #142d53;
+    margin-top: 4rem;
+}
+.profile-exp{
+    font-size: 2.2rem;
+    text-align: center;
+    color: #3072d4e8;
+    margin-top: 2rem;
+}
+.subject-h2{
+    font-size: 4rem;
+    color: #1a1515;
+    display: inline-block;
+    margin-left: 4rem;
+}
+.subject-p{
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: rgba(58, 51, 33, 0.664);
+    text-align: left;
+    margin-left: 13rem;
+}
+.post-h3{
+    font-size: 3.5rem;
+    text-align: left;
+    color: #1d1919;
+    margin-top: 2rem;
+    &:hover{
+        color: #614ea7;
+    }
+}
+.post-p{
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: rgba(58, 51, 33, 0.664);
+    text-align: left;
+}
+.post-span{
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-top: 3rem;
+    color: rgba(14, 13, 12, 0.89);
+}
+.email-box-h2{
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: $color-white;
+    text-align: left;
+}

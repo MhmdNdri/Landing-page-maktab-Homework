@@ -1,0 +1,53 @@
+.oval-img{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.border-svg{
+    width: 11rem;
+    height: 11rem;
+    border: 1.5px solid $button-color-blue;
+    border-radius: 1rem;
+    transition: all .3s ease;
+    &:hover{
+        border: 2px solid $button-color-blue;
+    }
+}
+.icon-biohazard{
+    background-color: $button-color-blue;
+    border: 1.5px solid $color-white;
+}
+.feature-icon{
+    margin: 3rem;
+}
+.section-about-img{
+    width: 100%;
+    height: 100%;
+}
+.img-play{
+    padding-left: 2rem;
+}
+.profile-pic{
+    width: 20%;
+    height: 20%;
+
+    &-img{
+        width: 100%;
+        width: 100%;
+    }
+}
+.email-box-shape1{
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.email-box-shape2{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
