@@ -9,8 +9,10 @@
         <title>Landing Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         
     </head>
     <body>
@@ -26,14 +28,14 @@
                 <li class="nav_bar-items">Contact</li>
             </ul>
             <div class="center_home-page-sec">
-                <div class="center_home-page-sec_left">
+                <div class="center_home-page-sec_left" data-aos="fade-right" data-aos-duration="2000">
                     <h1 class= "header-text">A Guide To <span style="font-size: 6rem; font-weight: 800;"> Rocky </span>  Mountain Vacation</h1> <br><br>
                     <h2 class="explain-text">Maui helicopter tours are great way to see the island from a defferent prespective and have a fun adventure. If you have 
                         never been an helicopter, before this is a great place to do it.
                     </h2>
                     <button class = "main-button">Get Started</button>
                 </div>
-                <div class="center_home-page-sec_right">
+                <div class="center_home-page-sec_right" >
                     <img src="assets/Button 2.png" alt="video" class="video-show">
                     <img src="assets/play.png" alt="play-button" class="video-show-button">
                 </div>
@@ -43,16 +45,16 @@
 
 
         <section class="section-feature">
-            <div class="section-feature_box">
+            <div class="section-feature_box" data-aos="fade-up" data-aos-duration = "1100">
                 <div class="border-svg">
                     <img src="assets/worldBook.svg" class="feature-icon" alt="Bookicon">
                 </div>
-                <h2 class="feature-head-text">First Click Test</h2>
+                <h2 class="feature-head-text" >First Click Test</h2>
                 <p class="feature-head-text-explain">is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy 
                     text ever since the 1500s</p>
             </div>
-            <div class="section-feature_box">
+            <div class="section-feature_box" data-aos="fade-down" data-aos-duration = "1100">
                 <div class="border-svg icon-biohazard">
                     <img src="assets/biohazard.svg" class="feature-icon " alt="hazard">
                 </div>
@@ -61,7 +63,7 @@
                     Lorem Ipsum has been the industry's standard dummy 
                     text ever since the 1500s</p>
             </div>
-            <div class="section-feature_box">
+            <div class="section-feature_box" data-aos="fade-up" data-aos-duration = "1100">
                 <div class="border-svg">
                     <img src="assets/handshake.svg" class="feature-icon " alt="handshake">
                 </div>
@@ -70,7 +72,7 @@
                      Lorem Ipsum has been the industry's standard dummy 
                      text ever since the 1500s</p>
             </div>
-            <div class="section-feature_box">
+            <div class="section-feature_box" data-aos="fade-down" data-aos-duration = "1100">
                 <div class="border-svg">
                     <img src="assets/person.svg" class="feature-icon " alt="person">
                 </div>
@@ -83,10 +85,10 @@
 
 
         <section class="section-about">
-            <div class="section-about-left-box">
+            <div class="section-about-left-box" data-aos="zoom-in-right" data-aos-duration = "1100">
                 <img src="assets/illustrator.png" class="section-about-img" alt="about">
             </div>
-            <div class="section-about-right-box">
+            <div class="section-about-right-box" data-aos="zoom-in-left" data-aos-duration = "1100">
                 <h1 class="section-about-header-text">Learn with Protips</h1>
                 <ul class="section-about-ul">
                     <li class="section-about-li">Beyound the naked eyes</li>
@@ -238,6 +240,9 @@
         </footer>
 
         
-        <script src="" async defer></script>
+        <script src="bower_components/aos/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
